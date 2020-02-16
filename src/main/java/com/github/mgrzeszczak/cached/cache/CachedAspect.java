@@ -14,7 +14,7 @@ import java.util.concurrent.ConcurrentHashMap;
 @Aspect
 @RequiredArgsConstructor
 @Slf4j
-public class CachedAspect {
+class CachedAspect {
 
     private final StoreFactory storeFactory;
 

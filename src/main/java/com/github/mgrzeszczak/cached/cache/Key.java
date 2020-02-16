@@ -5,7 +5,7 @@ import lombok.Value;
 import java.util.Arrays;
 
 @Value
-public class Key {
+class Key {
 
     private final Object[] args;
 
